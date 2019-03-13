@@ -4,7 +4,7 @@ package dev.fvames.pattern.single;
 public class LazyInnerTest {
 
     public static void main(String[] args) {
-        LazyInnerClassSingleton innerClassSingleton = new LazyInnerClassSingleton();
+        LazyInnerClassSingleton innerClassSingleton = LazyInnerClassSingleton.getInstance();
         Thread thread1 = new Thread(innerClassSingleton);
         Thread thread2 = new Thread(innerClassSingleton);
 
