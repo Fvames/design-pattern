@@ -6,7 +6,7 @@ public class LazyLoadSingle {
 
     private static LazyLoadSingle single = null;
 
-    /*synchronized LazyLoadSingle getLazyLoadSingle() {
+    /*static synchronized LazyLoadSingle getLazyLoadSingle() {
         if (single == null) {
             single = new LazyLoadSingle();
         }

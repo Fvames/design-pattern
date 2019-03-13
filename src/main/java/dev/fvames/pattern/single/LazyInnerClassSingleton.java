@@ -1,8 +1,12 @@
 package dev.fvames.pattern.single;
 
-public class LazyInnerClassSingleton {
+public class LazyInnerClassSingleton implements Runnable {
 
-    // 默认不加载
+    public void run() {
+        System.out.println("currentThreadName：" + Thread.currentThread().getName() + ", " + getInstance());
+    }
+
+    // 默认不加载内部类
     private static class LazyHolder{
         public static final LazyInnerClassSingleton LAZY = new LazyInnerClassSingleton();
     }
