@@ -8,6 +8,9 @@ public enum EnumSingleton {
 
     INSTANCE;
 
+    private EnumSingleton() {
+    }
+
     private Object data;
 
     public Object getData() {
