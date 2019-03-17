@@ -1,9 +1,5 @@
 package dev.fvames.pattern.proxy;
 
-import dev.fvames.pattern.factory.proxy.CEOLeader;
-import dev.fvames.pattern.factory.proxy.CglibProxy;
-import dev.fvames.pattern.factory.proxy.ILeader;
-
 public class CglibProxyTest {
 
     public static void main(String[] args) {

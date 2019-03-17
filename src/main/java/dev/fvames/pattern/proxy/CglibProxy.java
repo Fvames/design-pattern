@@ -1,4 +1,4 @@
-package dev.fvames.pattern.factory.proxy;
+package dev.fvames.pattern.proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

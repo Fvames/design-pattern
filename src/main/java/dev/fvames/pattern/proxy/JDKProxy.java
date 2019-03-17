@@ -1,4 +1,4 @@
-package dev.fvames.pattern.factory.proxy;
+package dev.fvames.pattern.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

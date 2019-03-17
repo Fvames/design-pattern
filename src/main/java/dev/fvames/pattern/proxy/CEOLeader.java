@@ -1,4 +1,4 @@
-package dev.fvames.pattern.factory.proxy;
+package dev.fvames.pattern.proxy;
 
 public class CEOLeader implements ILeader {
 
