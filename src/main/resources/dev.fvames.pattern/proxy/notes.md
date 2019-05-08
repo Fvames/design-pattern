@@ -15,5 +15,5 @@ private static Class<?> getProxyClass0(ClassLoader loader,
     // the given interfaces exists, this will simply return the cached copy;
     // otherwise, it will create the proxy class via the ProxyClassFactory
     return proxyClassCache.get(loader, interfaces);
-}
+} 
 ```
