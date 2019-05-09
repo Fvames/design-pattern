@@ -1,7 +1,7 @@
 - JDK 代理模式接口数量不能超过 65535 个
 > Proxy.newInstance() 方法中有以下限制
 ```
-/**
+/** 
  * Generate a proxy class.  Must call the checkProxyAccess method
  * to perform permission checks before calling this.
  */
